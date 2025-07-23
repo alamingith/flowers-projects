@@ -1,5 +1,5 @@
 *{
-    margin:0;
+    margin:0 ;
     padding:0;
     box-sizing: border-box;
 }
@@ -51,6 +51,7 @@
     color:#252432;
 }
 @media screen and (max-width:678px) {
+    
     .none{
         display:none;
     }
@@ -82,6 +83,7 @@
     width:100%;
 }
 @media screen and (max-width:678px) {
+   
     .bannar-section{
         flex-direction:column-reverse;
         flex-wrap:wrap-reverse;
@@ -91,8 +93,53 @@
 /* our-plants section */
 .our-plants{
     text-align:center;
+    margin-top:120px;
 }
 .our-plants-description{
     max-width:888px;
     margin:0px auto;
+}
+/* flowers-items section */
+.flowers-items{
+    margin-top:49px;
+    display:grid;
+    grid-template-columns: repeat(4 ,1fr);
+    column-gap: 30px;
+    row-gap: 20px;
+}
+.flowers-items-container{
+    max-width: 270px;
+    /* border:1px solid #c56cf0; */
+}
+.flowers-items-container img{
+    width:100%;
+    margin-bottom:30px;
+}
+.flowers-items-title{
+    font-weight:600px;
+    font-size:22px;
+    text-align:center;
+    color:#111111;
+}
+.flowers-items-price{
+    display: block;
+   text-align: center;
+   font-weight: bold;
+   font-size: 22px;
+   color:#111111;
+}
+.flowers-items-button{
+    display: block;
+    background-color: #E95A08;
+    width:100%;
+    padding:19px 80px;
+    margin-top: 30px;
+    color:#ffff;
+    font-weight:600;
+}
+@media screen and (max-width:678px) {
+    .flowers-items{
+        grid-template-columns: repeat(2 ,1fr);
+        
+    }
 }
