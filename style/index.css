@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* sheared style */
+.primary-width{
+    max-width:1140px;
+    margin:0px auto;
+    border:1px solid red;
+}
+.nav-anchor-color{
+    color:#8987A1;
+}
+/* header section */
+
+/* navbar */
+.navigationbar{
+    display:flex;
+    justify-content:space-between;
+    
+}
+.navigationbar .nav-list{
+    display:flex;
+    align-items:center;
+
+}
+.navigationbar .nav-list li{
+    list-style:none;
+
+}
+.navigationbar .nav-list li a{
+    text-decoration:none;
+    margin-right:2.3rem;
+}
+.nav-list .home-color{
+    color:#252432;
+}
+@media screen and (max-width:678px) {
+    .none{
+        display:none;
+    }
+    .navigationbar{
+        /* align-items:center; */
+    }
+}
