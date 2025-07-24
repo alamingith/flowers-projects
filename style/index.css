@@ -147,18 +147,14 @@
 @media screen and (max-width:678px) {
     .flowers-items{
         grid-template-columns: repeat(2 ,1fr);
-        
-    }
-    main{
-        padding:0px 16px;
-    }
-    .flowers-items{
-       column-gap: 20px;
+        padding:0px 17px 0px 14px;
+        column-gap: 20px;
         row-gap: 28px;
     }
     .flowers-items-container{
         max-width:171px;
     }
+    
 }
 /* Plants Lover Section */
 .plants-lover{
