@@ -16,7 +16,7 @@
 .primary-width{
     max-width:1140px;
     margin:0px auto;
-    border:1px solid red;
+    /* border:1px solid red; */
 }
 .nav-anchor-color{
     color:#8987A1;
@@ -303,4 +303,101 @@
         flex-direction: column;
         padding:50px 14px 50px 20px;
     }
+}
+/* Latest Deal Section */
+.Latest-Deal-Section{
+
+}
+.Latest-deal{
+    text-align: center;
+    margin-top:38px;
+}
+.Latest-deal-title{
+    font-weight:bold;
+    font-size:3rem;
+}
+.Latest-deal-description{
+    max-width:888px;
+    margin:0 200px;
+}
+
+/* img-container */
+
+.img-container{
+}
+.img-box{
+display:flex;
+justify-content: space-between;
+margin:120px 0px;
+}
+.left-img-1{
+     width: 367px;
+    height: 197px;
+    background-image: url("../assets/deal-bloom.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-bottom:25px;
+   border-radius: 14px;
+}
+.left-img-2{
+    width: 367px;
+    height: 201px;
+    background-image: url("../assets/deal-ana.png");
+    display:flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-radius: 14px;
+}
+.img-title{
+    
+    font-weight: bold;
+    font-size: 20px;
+    color:white;
+}
+
+.shop-now{
+    color:#ffff;
+    font-weight: 600;
+}
+.right-img{
+    background-image: url("../assets/deal-zabo.png");
+    width:753px;
+    height:423px;
+    
+}
+.right-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+}
+@media screen and (max-width:400px) {
+   .Latest-deal{
+ 
+   }
+   .Latest-deal-description{
+    max-width:336px;
+    margin:0 auto;
+    font-size:14px;
+    text-align: center;
+   }
+   .img-box{
+    flex-direction: column;
+    padding:0px 16px;
+   }
+   .left-img-1 ,.left-img-2 ,.right-img{
+    max-width:361px;
+    padding:0px 16px;
+    margin-bottom:20px;
+    border-radius: none;
+   }
+   ..left-img-1 ,.right-img{
+    border-radius: 14px;
+   }
 }
