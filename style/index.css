@@ -53,7 +53,7 @@
 .nav-list .home-color{
     color:#252432;
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:678px) {
     
     .none{
         display:none;
@@ -88,7 +88,7 @@
     /* border:2px solid turquoise; */
     width:100%;
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:678px) {
    
     .bannar-section{
         flex-direction:column-reverse;
@@ -143,8 +143,9 @@
     margin-top: 30px;
     color:#ffff;
     font-weight:600;
+    border:none
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:678px) {
     .flowers-items{
         grid-template-columns: repeat(2 ,1fr);
         padding:0px 17px 0px 14px;
@@ -195,7 +196,7 @@
     height:286px;
    
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:678px) {
     .plants-lover{
         flex-direction: column;
     }
@@ -247,7 +248,7 @@
     border:none;
     
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:678px) {
     .join-input-box input[type="email"]{
         width:210px;
        
@@ -302,7 +303,7 @@
 .container-4-logo a img{
     margin-left:24px;
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:678px) {
     .footer-container{
         flex-direction: column;
         padding:50px 14px 50px 20px;
@@ -381,7 +382,7 @@ margin:120px 0px;
     align-items: center;
     border-radius: 22px;
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:678px) {
    .Latest-deal{
  
    }
