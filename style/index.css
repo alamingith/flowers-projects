@@ -154,6 +154,10 @@
     .flowers-items-container{
         max-width:171px;
     }
+    .flowers-items-button{
+        border:none;
+        padding:19px 30.5px;
+    }
     
 }
 /* Plants Lover Section */
@@ -393,11 +397,13 @@ margin:120px 0px;
    }
    .left-img-1 ,.left-img-2 ,.right-img{
     max-width:361px;
+    height:184.5px;
     padding:0px 16px;
     margin-bottom:20px;
     border-radius: none;
    }
-   ..left-img-1 ,.right-img{
+   .right-img{height:172px;}
+   .left-img-1 ,.right-img{
     border-radius: 14px;
    }
 }
