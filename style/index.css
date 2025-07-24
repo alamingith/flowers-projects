@@ -53,7 +53,7 @@
 .nav-list .home-color{
     color:#252432;
 }
-@media screen and (max-width:678px) {
+@media screen and (max-width:400px) {
     
     .none{
         display:none;
@@ -88,7 +88,7 @@
     /* border:2px solid turquoise; */
     width:100%;
 }
-@media screen and (max-width:678px) {
+@media screen and (max-width:400px) {
    
     .bannar-section{
         flex-direction:column-reverse;
@@ -144,7 +144,7 @@
     color:#ffff;
     font-weight:600;
 }
-@media screen and (max-width:678px) {
+@media screen and (max-width:400px) {
     .flowers-items{
         grid-template-columns: repeat(2 ,1fr);
         padding:0px 17px 0px 14px;
@@ -185,11 +185,13 @@
 }
 .plants-lover-logo{
     position:absolute;
-    top:-300px;
-    left:200px;
+    top: -130px;
+    left: 355px;
+    width:286px;
+    height:286px;
    
 }
-@media screen and (max-width:678px) {
+@media screen and (max-width:400px) {
     .plants-lover{
         flex-direction: column;
     }
@@ -241,7 +243,7 @@
     border:none;
     
 }
-@media screen and (max-width:678px) {
+@media screen and (max-width:400px) {
     .join-input-box input[type="email"]{
         width:210px;
        
@@ -296,7 +298,7 @@
 .container-4-logo a img{
     margin-left:24px;
 }
-@media screen and (max-width:678px) {
+@media screen and (max-width:400px) {
     .footer-container{
         flex-direction: column;
         padding:50px 14px 50px 20px;
